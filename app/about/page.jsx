@@ -1,5 +1,4 @@
 import Heading from "../components/Heading"
-import bg from "../../public/images/workshop.jpg"
 import Image from "next/image"
 
 export default function about() {
