@@ -4,15 +4,11 @@ import ActivityCard from "./components/ActivityCard"
 import { FaCampground } from "react-icons/fa"
 import { FaBullhorn } from "react-icons/fa";
 import { FaProjectDiagram } from "react-icons/fa";
-import Head from "next/head";
 
 
 export default function page() {
   return (
     <section>
-      <Head>
-        <link rel="icon" href="/motionu.ico" sizes="any" />
-      </Head>
       <main>
         <section className="h-screen flex justify-center items-center pb-20 bg-gradient-to-br	from-sky-300 via-white  to-sky-300">
           <HeroText></HeroText>
