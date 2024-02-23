@@ -8,6 +8,7 @@ export default function Header() {
                 <a href="/" className="hover:text-white/80">Home</a>
                 <a href="/about" className="hover:text-white/80">About</a>
                 <a href="/news" className="hover:text-white/80">News</a>
+                <a href="/projects" className="hover:text-white/80">Projects</a>
                 <a href="/contact" className="hover:text-white/80">Contact us</a>
             </div>
         </header>

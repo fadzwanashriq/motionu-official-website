@@ -10,7 +10,7 @@ export default function page() {
   return (
     <section>
       <main>
-        <section className="h-screen flex justify-center items-center pb-20 bg-gradient-to-br	from-sky-300 via-white  to-sky-300">
+        <section className="h-screen flex justify-center items-center pb-20 bg-gradient-to-br	from-sky-300 via-white to-sky-300">
           <HeroText></HeroText>
         </section>
         <div className="px-64">
