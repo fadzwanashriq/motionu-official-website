@@ -17,7 +17,7 @@ export default function page() {
             <hr />
             <div className="flex justify-between my-8">
               <p className="font-semibold">Get in touch</p>
-              <p className="text-right">motion.kict@gmail.com</p>
+              <p className="text-right">motionu.kict@gmail.com</p>
             </div>
             <hr />
             <div className="flex justify-between my-8">
