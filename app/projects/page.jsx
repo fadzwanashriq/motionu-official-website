@@ -4,9 +4,9 @@ const contentful = require("contentful");
 
 export default function projectsPage() {
     const client = contentful.createClient({
-        space: 'bjecqd91nk6y',
+        space: process.env.SPACE,
         environment: 'master', // defaults to 'master' if not set
-        accessToken: 'bWtB0JmR-bFAhX5rmc_i7gj6L_-RzQwkHq5HD9z3iBE'
+        accessToken: process.env.ACCESS_TOKEN
     })
     
     return (
@@ -18,7 +18,7 @@ export default function projectsPage() {
             <div className="grid grid-cols-2 gap-4 gap-y-10 mx-60">
                 { client.getEntries({ content_type: "projects" }).then(entries => (
                     entries.items.map(entry => (
-                        <ProjectPostCard key={entry.sys.id} title={entry.fields.title} date={entry.fields.date} image={entry.fields.image} link={entry.fields.link} description={entry.fields.description}></ProjectPostCard>
+                        <ProjectPostCard key={entry.sys.id} title={entry.fields.title} date={entry.fields.date} image={entry.fields.image.fields.file.url} link={entry.fields.link} description={entry.fields.description}></ProjectPostCard>
                     ))
                 )) }
             </div>
