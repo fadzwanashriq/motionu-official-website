@@ -28,7 +28,7 @@ export default async function News({params}) {
 
     return (
         <>
-            <section className="mx-52 my-10 text-justify">
+            <section className=" mx-72 my-10  text-justify">
                 {date}
                 {documentToReactComponents(document, options)}
                 <img src={src} className="w-1/2 mx-auto" />

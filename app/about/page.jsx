@@ -10,20 +10,21 @@ export default function about() {
               <div className="text-center">
                 <Heading text={"Background"}></Heading>
               </div>
-              <p className="text-wrap mt-3 leading-8 text-justify text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima magnam voluptatem error velit alias vel sunt laboriosam fugiat voluptates odio.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quam vel, mollitia neque similique fuga cupiditate. Enim, delectus mollitia cum eum maiores nesciunt. Ea illum et expedita dolorem aspernatur asperiores dolorum, veritatis aliquam, autem soluta maiores porro quasi cupiditate blanditiis eius iste odio placeat. Fugit veniam harum dignissimos facere fugiat excepturi a provident odit nisi dolores id, ex odio magni optio qui ratione ea laboriosam officia, blanditiis explicabo quod est.</p>
+              <p className="text-wrap mt-3 leading-8 text-justify text-gray-700">Motion-U Club is a Special Interest Group (SIG) based in Kulliyyah of Information and Communication Technology (KICT) of International Islamic University Malaysia (IIUM). The Motion-U Club fosters a vibrant community where technology enthusiasts converge to innovate and embark on entrepreneurial journeys. Through workshops, talks, and hands-on projects, members explore the intersection of technology and entrepreneurship, equipped with skills and networks to shape the future of innovation and make meaningful impact.</p>
             </div>
           </div>
             <div className="flex justify-center gap-10 mt-10 text-center animate-fade-down animate-delay-200">
               <div className="rounded-2xl border-2 border-sky-300 w-1/2 p-5">
               <div>
                   <Heading text={"Mission"}></Heading>
-                  <p className="text-wrap mt-3 leading-8 text-justify text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima magnam voluptatem error velit alias vel sunt laboriosam fugiat voluptates odio.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quam vel, mollitia neque similique fuga cupiditate. Enim, delectus mollitia cum eum maiores nesciunt. Ea illum et expedita dolorem aspernatur asperiores dolorum, veritatis aliquam, autem soluta maiores porro quasi cupiditate blanditiis eius iste odio placeat. Fugit veniam harum dignissimos facere fugiat excepturi a provident odit nisi dolores id, ex odio magni optio qui ratione ea laboriosam officia, blanditiis explicabo quod est.</p>
+                  <p className="text-wrap mt-3 leading-8 text-justify text-gray-700">Empower KICT students at IIUM Malaysia to become innovative technopreneurs, leveraging their skills in information and communication technology. Through education and collaboration, we prepare them to drive positive change and contribute to the global tech ecosystem.</p>
                 </div>
                 </div>
                 <div className="rounded-2xl border-2 border-sky-300 w-1/2 p-5">
                 <div>
                   <Heading text={"Vision"}></Heading>
-                  <p className="text-wrap mt-3 leading-8 text-justify text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima magnam voluptatem error velit alias vel sunt laboriosam fugiat voluptates odio.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quam vel, mollitia neque similique fuga cupiditate. Enim, delectus mollitia cum eum maiores nesciunt. Ea illum et expedita dolorem aspernatur asperiores dolorum, veritatis aliquam, autem soluta maiores porro quasi cupiditate blanditiis eius iste odio placeat. Fugit veniam harum dignissimos facere fugiat excepturi a provident odit nisi dolores id, ex odio magni optio qui ratione ea laboriosam officia, blanditiis explicabo quod est.</p>
+                  <p className="text-wrap mt-3 leading-8 text-justify text-gray-700">To cultivate a vibrant community within KICT, where students are inspired to harness their technological expertise for entrepreneurial endeavors. We aspire to nurture a generation of forward-thinking technopreneurs who lead with integrity, creativity, and a commitment to Islamic values.
+</p>
                 </div>
               </div>
             </div>

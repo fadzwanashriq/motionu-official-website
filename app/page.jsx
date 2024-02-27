@@ -18,9 +18,9 @@ export default function page() {
             <div className="text-center">
               <Heading text={"Activities"}></Heading>
               <div className="flex justify-center gap-10 mt-10">
-                <ActivityCard activityDesc={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, aliquam?"} activityImage={<FaBullhorn></FaBullhorn>} activityTitle={"Workshop and Talk"}></ActivityCard>
-                <ActivityCard activityDesc={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, aliquam?"} activityImage={<FaProjectDiagram></FaProjectDiagram>} activityTitle={"Projects"}></ActivityCard>
-                <ActivityCard activityDesc={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, aliquam?"} activityImage={<FaCampground></FaCampground>} activityTitle={"Bootcamp"}></ActivityCard>
+                <ActivityCard activityDesc={"Engage in discussions, learn strategies, and gain insights into tech entrepreneurship through informative sessions and interactive workshops"} activityImage={<FaBullhorn></FaBullhorn>} activityTitle={"Workshop and Talk"}></ActivityCard>
+                <ActivityCard activityDesc={"Collaborate, innovate, and develop real-world solutions while applying entrepreneurial principles in exciting technopreneurial projects"} activityImage={<FaProjectDiagram></FaProjectDiagram>} activityTitle={"Projects"}></ActivityCard>
+                <ActivityCard activityDesc={"Dive into immersive training sessions, hone skills, and build networks with like-minded individuals in intensive technopreneurship bootcamps"} activityImage={<FaCampground></FaCampground>} activityTitle={"Bootcamp"}></ActivityCard>
               </div>
             </div>
           </section>
