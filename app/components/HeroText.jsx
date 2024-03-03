@@ -1,11 +1,15 @@
-import PrettyButton from "./PrettyButton"
+import PrettyButton from "./PrettyButton";
 
 export default function HeroText() {
   return (
     <div className="text-center animate-fade-up  animate-ease-out">
-        <h1 className="text-9xl font-extrabold text-sky-700 text-nowrap">Motion-U Club</h1>
-        <p className="text-2xl text-sky-500 font-semibold my-5">Empowering Innovators, Shaping Futures</p>
-        <PrettyButton text={"More about us"} link="/about"></PrettyButton>
+      <h1 className="text-5xl font-extrabold text-sky-700 text-nowrap lg:text-9xl">
+        Motion-U Club
+      </h1>
+      <p className="text-lg text-sky-500 font-semibold my-5 lg:text-2xl">
+        Empowering Innovators, Shaping Futures
+      </p>
+      <PrettyButton text={"More about us"} link="/about"></PrettyButton>
     </div>
-  )
+  );
 }
