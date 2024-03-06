@@ -48,7 +48,7 @@ export default function page() {
           <div className="mb-5 text-center">
             <Heading text={"Membership perks"} lightFont={true}></Heading>
           </div>
-          <div className=" lg:grid grid-cols-3 gap-2 xl:px-80 lg:px-32">
+          <div className=" lg:grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2 xl:px-80 lg:px-32">
             <MembershipPerkCard
               title={"Participate in our workshops"}
               description={
