@@ -7,11 +7,12 @@ import { FaLinkedin } from "react-icons/fa";
 
 export default function page() {
   return (
-    <section className="text-center lg:text-left lg:mx-40 text-gray-700">
-      <h1 className="text-3xl lg:text-6xl font-bold text-sky-800 inline-block my-10 lg:my-20">
-        Contact us!
-      </h1>
-      <div className="lg:w-1/2 m-5">
+    <section className="text-center lg:text-left lg:mx-40 text-gray-700 h-screen w-screen flex justify-center items-center">
+      <div className="max-w-lg ">
+        <h1 className="text-3xl lg:text-6xl font-bold text-sky-800 my-0 lg:my-20">
+          Contact us!
+        </h1>
+        <div className="lg:w-1/2 m-5">
         <div className="flex justify-between my-8">
           <p className="font-semibold">Address</p>
           <p className="text-right">
@@ -55,6 +56,7 @@ export default function page() {
           </div>
         </div>
         <hr />
+      </div>
       </div>
     </section>
   );

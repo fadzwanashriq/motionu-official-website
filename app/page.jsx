@@ -14,7 +14,7 @@ export default function page() {
         <section className="h-screen flex justify-center items-center pb-20 bg-gradient-to-br	from-sky-300 via-white to-sky-300">
           <HeroText></HeroText>
         </section>
-        <div className="lg:px-100 white-background">
+        <div className="lg:px-100 bg-white">
           <section className="py-10 ">
             <div className="text-center">
               <Heading text={"Activities"}></Heading>
@@ -87,7 +87,7 @@ export default function page() {
             ></MembershipPerkCard>
           </div>
         </section>
-        <section className="p-10 white-background">
+        <section className="p-10 bg-white">
           <h2 className="text-3xl text-sky-700 font-bold text-center pb-8">
             Our collaborators
           </h2>

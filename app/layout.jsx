@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import React from "react";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -13,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} overflow-x-hidden relative bg-sky-500`}>
+      <body className={`${inter.className} overflow-x-hidden relativ`}>
         <Header></Header>
         {children}
         <Footer></Footer>
