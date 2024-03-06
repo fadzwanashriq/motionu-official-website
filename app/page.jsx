@@ -14,8 +14,8 @@ export default function page() {
         <section className="h-screen flex justify-center items-center pb-20 bg-gradient-to-br	from-sky-300 via-white to-sky-300">
           <HeroText></HeroText>
         </section>
-        <div className="lg:px-64">
-          <section className="py-10">
+        <div className="lg:px-100 white-background">
+          <section className="py-10 ">
             <div className="text-center">
               <Heading text={"Activities"}></Heading>
               <div className="flex flex-col items-center justify-center lg:flex-row gap-10 mt-10">
@@ -87,7 +87,7 @@ export default function page() {
             ></MembershipPerkCard>
           </div>
         </section>
-        <section className="p-10">
+        <section className="p-10 white-background">
           <h2 className="text-3xl text-sky-700 font-bold text-center pb-8">
             Our collaborators
           </h2>
@@ -106,7 +106,7 @@ export default function page() {
             ></Image>
             <Image
               src={"/images/cita.png"}
-              width={100}
+              width={120}
               height={100}
               className="rounded-full"
             ></Image>

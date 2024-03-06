@@ -13,11 +13,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className + " overflow-x-hidden relative"}>
+      <body className={`${inter.className} overflow-x-hidden relative bg-sky-500`}>
         <Header></Header>
         {children}
         <Footer></Footer>
-        </body>
+      </body>
     </html>
   );
 }
