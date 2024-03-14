@@ -9,6 +9,7 @@ import MembershipPerkCard from "./components/MembershipPerkCard";
 import { FaBookReader } from "react-icons/fa";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { FaTrophy } from "react-icons/fa6";
+import CollaboratorLogo from "./components/CollaboratorLogo";
 
 export default function page() {
   return (
@@ -117,36 +118,11 @@ export default function page() {
             Our collaborators
           </h2>
           <div className="grid grid-cols-2 lg:flex justify-center gap-9">
-            <Image
-              src={"/images/iium.png"}
-              width={100}
-              height={100}
-              className="rounded-full"
-            ></Image>
-            <Image
-              src={"/images/kict.png"}
-              width={100}
-              height={100}
-              className="rounded-full"
-            ></Image>
-            <Image
-              src={"/images/cita.png"}
-              width={100}
-              height={100}
-              className="rounded-full"
-            ></Image>
-            <Image
-              src={"/images/mulhaq.png"}
-              width={100}
-              height={100}
-              className="rounded-full"
-            ></Image>
-            <Image
-              src={"/images/ictss_logo.jpg"}
-              width={100}
-              height={100}
-              className="rounded-full"
-            ></Image>
+              <CollaboratorLogo image={"/images/iium.png"}></CollaboratorLogo>
+              <CollaboratorLogo image={"/images/kict.png"}></CollaboratorLogo>
+              <CollaboratorLogo image={"/images/cita.png"}></CollaboratorLogo>
+              <CollaboratorLogo image={"/images/mulhaq.png"}></CollaboratorLogo>
+              <CollaboratorLogo image={"/images/ictss_logo.jpg"}></CollaboratorLogo>
           </div>
         </section>
       </main>
