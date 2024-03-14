@@ -54,6 +54,7 @@ export default function page() {
                   activityDesc={
                     "Join our entrepreneurship club for networking, learning, and collaboration. Connect with fellow members, exchange ideas, and create together in a supportive community."
                   }
+                  // 
                   activityImage={<FaBookReader></FaBookReader>}
                   activityTitle={"Study Group"}
                 ></ActivityCard>
