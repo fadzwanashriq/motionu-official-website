@@ -6,6 +6,9 @@ import { FaBullhorn } from "react-icons/fa";
 import { FaProjectDiagram } from "react-icons/fa";
 import Image from "next/image";
 import MembershipPerkCard from "./components/MembershipPerkCard";
+import { FaBookReader } from "react-icons/fa";
+import { FaPeopleGroup } from "react-icons/fa6";
+import { FaTrophy } from "react-icons/fa6";
 
 export default function page() {
   return (
@@ -18,7 +21,7 @@ export default function page() {
           <section className="py-10">
             <div className="text-center">
               <Heading text={"Activities"}></Heading>
-              <div className="flex flex-col items-center justify-center lg:flex-row gap-10 mt-10">
+              <div className="flex flex-col items-center justify-center lg:grid lg:grid-cols-3 gap-10 mt-10">
                 <ActivityCard
                   activityDesc={
                     "Engage in discussions, learn strategies, and gain insights into tech entrepreneurship through informative sessions and interactive workshops"
@@ -40,6 +43,27 @@ export default function page() {
                   activityImage={<FaCampground></FaCampground>}
                   activityTitle={"Bootcamp"}
                 ></ActivityCard>
+                <ActivityCard
+                  activityDesc={
+                    "Enter our entrepreneurship competition, pitch your prototype, win prizes. Connect with mentors, investors, and peers to launch your startup."
+                  }
+                  activityImage={<FaTrophy></FaTrophy>}
+                  activityTitle={"Competition"}
+                ></ActivityCard>
+                <ActivityCard
+                  activityDesc={
+                    "Join our entrepreneurship club for networking, learning, and collaboration. Connect with fellow members, exchange ideas, and create together in a supportive community."
+                  }
+                  activityImage={<FaBookReader></FaBookReader>}
+                  activityTitle={"Study Group"}
+                ></ActivityCard>
+                <ActivityCard
+                  activityDesc={
+                    "Join our dynamic entrepreneurship club where members connect, interact, and collaborate. Share ideas, learn from peers, and create together in a supportive and inspiring community."
+                  }
+                  activityImage={<FaPeopleGroup></FaPeopleGroup>}
+                  activityTitle={"Community"}
+                ></ActivityCard>
               </div>
             </div>
           </section>
@@ -48,7 +72,7 @@ export default function page() {
           <div className="mb-5 text-center">
             <Heading text={"Membership perks"} lightFont={true}></Heading>
           </div>
-          <div className=" lg:grid grid-cols-3 gap-2 xl:px-80 lg:px-32">
+          <div className=" lg:grid grid-cols-3 gap-2 xl:px-72 lg:px-32">
             <MembershipPerkCard
               title={"Participate in our workshops"}
               description={
