@@ -52,7 +52,7 @@ export default function page() {
                 ></ActivityCard>
                 <ActivityCard
                   activityDesc={
-                    "Join our entrepreneurship club for networking, learning, and collaboration. Connect with fellow members, exchange ideas, and create together in a supportive community."
+                    "Join our study group focused on web and mobile app development, where we delve into coding, deploying websites, and exploring frameworks. Collaborate, learn, and grow your technical skills with us!"
                   }
                   // 
                   activityImage={<FaBookReader></FaBookReader>}
@@ -60,7 +60,7 @@ export default function page() {
                 ></ActivityCard>
                 <ActivityCard
                   activityDesc={
-                    "Join our study group focused on web and mobile app development, where we delve into coding, deploying websites, and exploring frameworks. Collaborate, learn, and grow your technical skills with us!"
+                    "Join our entrepreneurship club for networking, learning, and collaboration. Connect with fellow members, exchange ideas, and create together in a supportive community. "
                   }
                   activityImage={<FaPeopleGroup></FaPeopleGroup>}
                   activityTitle={"Community"}
