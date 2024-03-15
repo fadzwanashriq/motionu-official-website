@@ -7,7 +7,7 @@ export default function HeroText() {
         Motion-U Club
       </h1>
       <p className="text-sky-600 font-bold tracking-widest">
-      | Mobiity, Technology & Industry On University Startup Incubator |
+      | Mobility, Technology & Industry On University Startup Incubator |
       </p>
       <p className="text-lg text-sky-500 font-semibold my-9 lg:text-2xl">
         Empowering Innovators, Shaping Futures
@@ -16,3 +16,5 @@ export default function HeroText() {
     </div>
   );
 }
+
+//MotionUCTF{InductionD4y}
